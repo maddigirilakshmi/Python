@@ -1,0 +1,11 @@
+lst={39,77,93,45,2}
+print(lst)
+print(type(lst))
+lst.add(64)
+print(lst)
+lst.remove(77)
+print(lst)
+print(lst[:])
+print(lst[2])
+lst.append(lst[3])
+print(lst)
